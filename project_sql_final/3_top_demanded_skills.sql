@@ -9,6 +9,8 @@ WHERE
     job_title_short LIKE '%Data%Analyst%'
     AND
     job_location = 'Canada'
+    AND
+    salary_year_avg IS NOT NULL
 GROUP BY
     skills
 ORDER BY demand_count DESC

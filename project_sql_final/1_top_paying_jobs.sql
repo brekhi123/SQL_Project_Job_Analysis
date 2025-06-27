@@ -15,11 +15,7 @@ FROM
 LEFT JOIN company_dim cd 
 ON cd.company_id = jf.company_id
 WHERE 
-    (
     job_title_short LIKE '%Data%Analyst%' 
-    OR
-    job_title_short LIKE '%Data%Engineer%' 
-    )
     AND
     job_location = 'Canada' 
     AND

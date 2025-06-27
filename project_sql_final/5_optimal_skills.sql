@@ -15,7 +15,6 @@ WITH skills_demand AS (
         salary_year_avg IS NOT NULL
     GROUP BY
         skills_dim.skill_id
-    -- ORDER BY demand_count DESC
 ),
 
 average_salary AS (
@@ -34,7 +33,6 @@ average_salary AS (
         salary_year_avg IS NOT NULL
     GROUP BY
         skills_dim.skill_id
-    -- ORDER BY avg_yearly_salary DESC
 )
 
 SELECT
@@ -49,8 +47,7 @@ WHERE
     demand_count > 5
 ORDER BY
     avg_yearly_salary DESC,
-    demand_count DESC
-LIMIT 25;
+    demand_count DESC;
 
 
 
