@@ -1,7 +1,7 @@
 # Data Analyst Skills Analysis - Canada 2023
 
 ## Introduction
-This project analyzes the top-paying skills for data analyst positions in Canada in 2023, using a dataset of skills and their average yearly salaries. The goal was to identify trends in skill demand and salary distribution to provide insights for professionals seeking high-paying data analyst roles. SQL queries used in the analysis are stored in the [project_sql_final folder](/project_sql_final/) for reference and reproducibility.
+This project analyzes the top-paying skills for data analyst positions in Canada in 2023, a year marking the early post-COVID hiring rebound. Using a dataset of skills and their average yearly salaries, the goal was to identify trends in skill demand and salary distribution to provide insights for professionals seeking high-paying data analyst roles. SQL queries used in the analysis are stored in the [project_sql_final folder](/project_sql_final/) for reference and reproducibility.
 
 ## Background
 The dataset provided a list of skills required for data analyst jobs, along with their average annual salaries, sourced from job postings in Canada in 2023. This analysis builds on a prior exploration of top-paying data job roles, focusing specifically on data analyst positions to understand which skills command the highest salaries and why.
